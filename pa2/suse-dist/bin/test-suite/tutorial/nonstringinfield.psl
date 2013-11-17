@@ -1,0 +1,3 @@
+defvar o = {x:1} in {
+print(o[0])
+}

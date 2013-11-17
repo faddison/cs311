@@ -1,0 +1,6 @@
+print(==({x:1},{y:1}));
+print("\n");
+print(==({x:1},{x:1}));
+print("\n");
+print(==({x:1},{x:2}));
+print("");

@@ -1,0 +1,21 @@
+Learning Goals
+
+## Lecture 7 - Functions Intro ##
+
+### Functions ###
+
+- Explain in context four of the key features of a function
+ - delaying evaluation of the function body
+ - allowing evaluation of the function body from (possibly distant) locations in the program
+ - blocking out bindings from the function's dynamic context
+ - "allowing in" a dynamica value vai the parameters
+
+- Formal parameters vs. actual parameters
+ - distinguish between formal and actual parameters
+  - formal parameters are the names give to argument values within the function
+  - actual parameters are the argument expressions whose values (under eager evaluation) are bound to the formal parameters
+ - identify formal and actual parameters in context
+
+- Function calls vs function definitions
+ - distinguish between a function call (aka function 'application') and a function 'definition
+  - a function call is application of a previously defined function to actual parameters

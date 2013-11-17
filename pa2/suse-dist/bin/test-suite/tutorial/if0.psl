@@ -1,0 +1,2 @@
+if 0 then print("0") else print("not 0");
+print("");

@@ -1,0 +1,7 @@
+defvar x = 1 in
+defvar y = +(x,y) in {
+print(x);
+print("\n");
+print(y);
+print("");
+}

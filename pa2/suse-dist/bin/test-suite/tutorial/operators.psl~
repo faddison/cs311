@@ -1,0 +1,16 @@
+deffun n()
+print("/n") in {
+print(<(3,4));
+n();
+print(>(4,5));
+n();
+print(+(3,4,5));
+n();
+print(-(9,8,7));
+n();
+print(+("one ", "two ", "three"));
+n();
+print(==(5,5));
+n();
+==("foo",5);
+}

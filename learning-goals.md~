@@ -1,0 +1,15 @@
+Learning Goals
+
+## Lecture 7 - Functions Intro ##
+
+### Functions ###
+
+- Explain in context four of the key features of a function
+	- delaying evaluation of the function body
+	- allowing evaluation of the function body from (possibly distant) locations in the program
+	- blocking out bindings from the function's dynamic context
+	- "allowing in" a dynamica value vai the parameters
+- Formal parameters vs. actual parameters
+	
+
+

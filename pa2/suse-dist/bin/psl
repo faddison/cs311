@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./assignment1-suse --interp < $1

@@ -1,0 +1,23 @@
+Team Member Names: Fraser Addison
+
+Team Member Student IDs: 33322108
+
+Team Member ugrad.cs.ubc.ca Logins: b4u7
+
+Initial level commitment (80%, 90%, or 100%): 80%
+
+Tutorial time that at least one and ideally all members will attend
+each week:
+
+3+ hours weekly that the group guarantees EACH OTHER to be available
+to meet (face-to-face or at a distance):
+
+Saturday 2-5pm
+
+Three one-sentence ideas the team might pursue for the project:
+
+1. MVC web framework for Racket similar to rails favoring conventions and scaffolding (Racket on Brackets)
+
+2. Web application using Fantom highlighting differences between java and .net through a common interface.
+
+3. Interpreter in Racket for another esoteric minimalist language

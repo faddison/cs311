@@ -1,0 +1,39 @@
+defvar f = lambda(y) {if ==(y,1) then true else if ==(y,2) then true else false} in {
+print(==((lambda(x){x=2}),(lambda(x){x=2})));
+print("\n");
+print(==((lambda(x){x=2}),(lambda(x){x=1})));
+print("\n");
+print(==((lambda(y){y=2}),(lambda(x){x=2})));
+print("\n");
+print(==({y:2, x:1},{x:1,y:2}));
+print("\n");
+print(==({x:1,y:1},{x:1,y:2}));
+print("\n");
+print(==({x:1, y:2},{x:1,y:2}));
+print("\n");
+print(==(==(1,1),==(1,1)));
+print("\n");
+print(==("",""));
+print("\n");
+print(==((lambda(x){==("","")}),(lambda(x){==("a","a")})));
+print("\n");
+print(==(f(1),f(2)));
+print("\n");
+print(==(f(1),f(1)));
+print("\n");
+print(==(f(1),f(3)));
+print("\n");
+print(==({x:5},5));
+print("\n");
+print(==(({x:5}).x,5));
+print("\n");
+print(==({x:5},"a"));
+print("\n");
+print(==(f(1),5));
+print("\n");
+print(==((lambda(x){x=2}),5));
+print("\n");
+print(==((lambda(x){x=2}),"a"));
+print("");
+
+}

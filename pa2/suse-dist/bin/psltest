@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./assignment1-suse --test-interps < $1

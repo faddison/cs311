@@ -1,0 +1,5 @@
+defvar x = 1 in
+defvar f = lambda() { if ==(x,1) then print("1"); } in
+defvar field = +("a",f() in {
+print(field);
+}

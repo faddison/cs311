@@ -1,0 +1,32 @@
+deffun newline()
+print("\n") in
+deffun add(p1, p2)
+p1@translate(p2.x, p2.y, p2.z) in
+defvar point3d = {
+x:0, y:0, z:0,
+translate: lambda(self, x, y, z) {
+((self.x += x).y += y).z += z
+},
+zero: lambda(self) {
+((self.x = 0).y = 0).z = 0
+},
+show: lambda(self) {
+print(self.x);
+print(", ");
+print(self.y);
+print(", ");
+print(self.z);
+print("");
+}
+} in
+defvar point3d2 = point3d@translate(1,2,3) in
+defvar point3d3 = point3d2@translate(4,5,6) in
+defvar point3d0 = point3d2@zero() in {
+point3d3@show();
+newline();
+point3d0@show();
+add(point3d2, point3d3);
+newline();
+point3d2@show();
+newline();
+}

@@ -1,0 +1,4037 @@
+221 tests succeeded.
+273 tests failed.
+== Output of failed tests ==
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/assign/assign-obj2.psl   =
+=====================================================
+=== Expected stdout ===
+objectfoobar
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/assign/assign-obj3.psl   =
+=====================================================
+=== Expected stdout ===
+foo
+66
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+Bad arguments to +
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/assign/assign-obj4.psl   =
+=====================================================
+=== Expected stdout ===
+in func
+27
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+Bad arguments to +
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/assign/prim-assign-obj.psl   =
+=====================================================
+=== Expected stdout ===
+5
+11
+15
+5
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+Bad arguments to +
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/assign/prim-assign1.psl   =
+=====================================================
+=== Expected stdout ===
+12
+12
+
+=== Actual stdout ===
+12
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/for/for1.psl   =
+=====================================================
+=== Expected stdout ===
+0
+1
+2
+3
+4
+after loop
+5
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/for/for2.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Expected stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/for/for4.psl   =
+=====================================================
+=== Expected stdout ===
+init
+test
+body
+
+=== Actual stdout ===
+init
+
+
+=== Expected stderr ===
+Bad arguments to +
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/for/for5.psl   =
+=====================================================
+=== Expected stdout ===
+init
+body
+0
+x=1
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments to +
+
+=== Actual stderr ===
+Bad arguments to +
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/functions/func3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/functions/func4.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: 5
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (NumV 5)
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/functions/func5.psl   =
+=====================================================
+=== Expected stdout ===
+4
+
+=== Actual stdout ===
+4
+
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/if/if-side-effects.psl   =
+=====================================================
+=== Expected stdout ===
+11
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/if/if1.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+passed
+passed
+passed
+passed
+
+
+=== Actual stdout ===
+passed
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/inc-dec/pre-dec.psl   =
+=====================================================
+=== Expected stdout ===
+11
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/inc-dec/simple-dec.psl   =
+=====================================================
+=== Expected stdout ===
+10
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/inc-dec/simple-dec2.psl   =
+=====================================================
+=== Expected stdout ===
+00
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/inc-dec/simple-inc.psl   =
+=====================================================
+=== Expected stdout ===
+01
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/inc-dec/simple-inc2.psl   =
+=====================================================
+=== Expected stdout ===
+11
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/methods/meth1.psl   =
+=====================================================
+=== Expected stdout ===
+22
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/methods/meth2.psl   =
+=====================================================
+=== Expected stdout ===
+2
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/methods/meth3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/methods/meth4.psl   =
+=====================================================
+=== Expected stdout ===
+object5
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/misc/arith-lang.psl   =
+=====================================================
+=== Expected stdout ===
+5
+13
+12
+done
+
+=== Expected stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/misc/filter-port.psl   =
+=====================================================
+=== Expected stdout ===
+true
+true
+p2 received: hi ted!
+true
+p1 received: oh I get it
+true
+done
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "setOnMessage")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/misc/fold.psl   =
+=====================================================
+=== Expected stdout ===
+12
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "empty")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj.psl   =
+=====================================================
+=== Expected stdout ===
+55
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj10.psl   =
+=====================================================
+=== Expected stdout ===
+5
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj11.psl   =
+=====================================================
+=== Expected stdout ===
+y exists
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj12.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+10
+
+=== Expected stderr ===
+Non-object in field lookup: 12
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj13.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+Multiply-defined fields
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj14.psl   =
+=====================================================
+=== Expected stdout ===
+566
+
+=== Actual stdout ===
+b
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+object
+
+=== Expected stderr ===
+Multiply-defined fields
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+foo
+
+=== Expected stderr ===
+Non-object in field lookup: 5
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj4.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+Non-string in field lookup: 5
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj5.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj6.psl   =
+=====================================================
+=== Expected stdout ===
+foo
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj7.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+44
+
+=== Expected stderr ===
+Non-string in field update: 5
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj8.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+55
+
+=== Expected stderr ===
+Non-object in field update: 44
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/objects/obj9.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+22
+
+=== Expected stderr ===
+Non-object in field update: 44
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/prim/num-effects.psl   =
+=====================================================
+=== Expected stdout ===
+54312
+
+=== Actual stdout ===
+543
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/prim/num-obj-string.psl   =
+=====================================================
+=== Expected stdout ===
+5objectbar
+
+=== Actual stdout ===
+5objectbar
+
+
+=== Expected stderr ===
+Bad arguments to +
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/prim/str-effects.psl   =
+=====================================================
+=== Expected stdout ===
+foo
+bar
+baz
+foo
+bar
+baz
+
+
+=== Actual stdout ===
+foo
+bar
+baz
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/prim/str-obj-str.psl   =
+=====================================================
+=== Expected stdout ===
+5objectbar
+
+=== Actual stdout ===
+5objectbar
+
+
+=== Expected stderr ===
+Bad arguments to +
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/while/while1.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+passed
+
+
+=== Actual stdout ===
+passed
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/while/while2.psl   =
+=====================================================
+=== Expected stdout ===
+10
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/brown/while/while3.psl   =
+=====================================================
+=== Expected stdout ===
+0
+1
+2
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments to +
+
+=== Actual stderr ===
+Bad arguments to +
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/big-tests/fib.psl   =
+=====================================================
+=== Expected stdout ===
+5
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/big-tests/int-to-string.psl   =
+=====================================================
+=== Expected stdout ===
+-123
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/big-tests/lists.psl   =
+=====================================================
+=== Expected stdout ===
+2 0
+42
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "isempty")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/comments/comments-inside-function-calls.psl   =
+=====================================================
+=== Expected stdout ===
+This should be printed.
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/comments/no-escaping-newlines.psl   =
+=====================================================
+=== Expected stdout ===
+So this should be printed.
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/arity.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+Unbound identifier: y
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/closure.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+80
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/counter.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/displaying.psl   =
+=====================================================
+=== Expected stdout ===
+function
+function
+
+=== Actual stdout ===
+function
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/equality.psl   =
+=====================================================
+=== Expected stdout ===
+truefalsefalse
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/func5.psl   =
+=====================================================
+=== Expected stdout ===
+4
+
+=== Actual stdout ===
+4
+
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/lexical_scope.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+80
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/functions/mutation2.psl   =
+=====================================================
+=== Expected stdout ===
+4242
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/condition-change.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/expression-condition.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+Error2
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/if1.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+passed
+passed
+passed
+
+
+=== Actual stdout ===
+failed
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/non-boolean-conditions.psl   =
+=====================================================
+=== Expected stdout ===
+42
+42
+42
+42
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/short-circuit-type-errors.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/short-circuit.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/side-effecting-conditions.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/side-effecting-conditions2.psl   =
+=====================================================
+=== Expected stdout ===
+4242
+
+=== Actual stdout ===
+42
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/if/value.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/loops/closures.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/loops/while.psl   =
+=====================================================
+=== Expected stdout ===
+false
+
+=== Expected stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/loops/while2.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/adding-new-fields-to-objects.psl   =
+=====================================================
+=== Expected stdout ===
+424223
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/adding-new-methods-to-objects.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/brackets.psl   =
+=====================================================
+=== Expected stdout ===
+4223
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/cant-apply-non-function.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: 42
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "x")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/change-fields.psl   =
+=====================================================
+=== Expected stdout ===
+23
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/change-fields2.psl   =
+=====================================================
+=== Expected stdout ===
+42
+42
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+Bad arguments to -
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/compound-assignment.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+xFail
+
+
+=== Expected stderr ===
+Field not found: x
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/displaying.psl   =
+=====================================================
+=== Expected stdout ===
+object
+object
+
+=== Actual stdout ===
+object
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/equality.psl   =
+=====================================================
+=== Expected stdout ===
+truefalsefalsefalsefalsefalsefalsefalse
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order2.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order3.psl   =
+=====================================================
+=== Expected stdout ===
+First
+Second
+First
+Second
+Third
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order4.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Non-object in field lookup: 42
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "my_method")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order5.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Field not found: f
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order6.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+object
+
+=== Expected stderr ===
+Multiply-defined fields
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/evaluation-order7.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/method-brackets.psl   =
+=====================================================
+=== Expected stdout ===
+42422323
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/method-lookup-before-argument-eval.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Field not found: f
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/methods-need-an-argument.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/methods.psl   =
+=====================================================
+=== Expected stdout ===
+42422323
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/multiply-defined-fields.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+object
+
+=== Expected stderr ===
+Multiply-defined fields
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/nested-objects.psl   =
+=====================================================
+=== Expected stdout ===
+42
+23
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/non-string-keys-and-non-object-receivers.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+42
+
+=== Expected stderr ===
+Non-object in field lookup: 42
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/non-string-keys.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+42
+
+=== Expected stderr ===
+Non-string in field lookup: 42
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/receiver-needs-to-be-object.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+cause_error
+
+=== Expected stderr ===
+Non-object in field lookup: 42
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/objects/valid-field-names.psl   =
+=====================================================
+=== Expected stdout ===
+42
+
+=== Actual stdout ===
+@#!
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/operators/compound-operators.psl   =
+=====================================================
+=== Expected stdout ===
+424042424042
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+Bad arguments to -
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/operators/equality-with-different-types.psl   =
+=====================================================
+=== Expected stdout ===
+falsefalse
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/operators/relops.psl   =
+=====================================================
+=== Expected stdout ===
+truefalsetruefalsefalsefalsetruefalsetruefalse
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/operators/type-errors3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+foo
+bar
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/operators/variadic-ops.psl   =
+=====================================================
+=== Expected stdout ===
+4242
+
+=== Actual stdout ===
+42
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/printing/print-returns-argument.psl   =
+=====================================================
+=== Expected stdout ===
+blabla
+
+=== Actual stdout ===
+bla
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib1/printing/two-prints.psl   =
+=====================================================
+=== Expected stdout ===
+foobar
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/addafield.psl   =
+=====================================================
+=== Expected stdout ===
+object
+
+=== Actual stdout ===
+after
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/addafield2.psl   =
+=====================================================
+=== Expected stdout ===
+after
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/getfield.psl   =
+=====================================================
+=== Expected stdout ===
+my field value
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/getfieldstr.psl   =
+=====================================================
+=== Expected stdout ===
+my field value
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/getnofield.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/gt1.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+b
+c
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/gt2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+b
+4
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/lt1.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+1
+a
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/operators.psl   =
+=====================================================
+=== Expected stdout ===
+true
+false
+12
+-6
+one two three
+true
+false
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/print-sequence.psl   =
+=====================================================
+=== Expected stdout ===
+hello!
+object
+end
+
+=== Actual stdout ===
+end
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1/print-value.psl   =
+=====================================================
+=== Expected stdout ===
+hi!hi!
+
+=== Actual stdout ===
+hi!
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/addafield.psl   =
+=====================================================
+=== Expected stdout ===
+object
+
+=== Actual stdout ===
+after
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/addafield2.psl   =
+=====================================================
+=== Expected stdout ===
+after
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/getfield.psl   =
+=====================================================
+=== Expected stdout ===
+my field value
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/getfieldstr.psl   =
+=====================================================
+=== Expected stdout ===
+my field value
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/getnofield.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/gt1.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+b
+c
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/gt2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+b
+4
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/lt1.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+1
+a
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/operators.psl   =
+=====================================================
+=== Expected stdout ===
+true
+false
+12
+-6
+one two three
+true
+false
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/print-sequence.psl   =
+=====================================================
+=== Expected stdout ===
+hello!
+object
+end
+
+=== Actual stdout ===
+end
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.1/print-value.psl   =
+=====================================================
+=== Expected stdout ===
+hi!hi!
+
+=== Actual stdout ===
+hi!
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.5/changevar2.psl   =
+=====================================================
+=== Expected stdout ===
+before
+after
+
+=== Actual stdout ===
+after
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.5/defvar.psl   =
+=====================================================
+=== Expected stdout ===
+myfield
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.5/defvars.psl   =
+=====================================================
+=== Expected stdout ===
+myfield
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.5/objfield2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+longfieldnonsense
+
+=== Expected stderr ===
+Field not found: longfieldnonsense
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/1.5/objfieldplus.psl   =
+=====================================================
+=== Expected stdout ===
+5
+
+=== Actual stdout ===
+longfield
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/changevar3.psl   =
+=====================================================
+=== Expected stdout ===
+12
+12
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/for.psl   =
+=====================================================
+=== Expected stdout ===
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, , 
+
+=== Actual stdout ===
+, 
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/func1.psl   =
+=====================================================
+=== Expected stdout ===
+now
+not til later
+not til later
+
+
+=== Actual stdout ===
+not til later
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/func2.psl   =
+=====================================================
+=== Expected stdout ===
+Chapter One: Object-Oriented Programming
+Chapter Two: Functional Programming
+
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/func5.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+f
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/if.psl   =
+=====================================================
+=== Expected stdout ===
+else branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+then branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/if2.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+then branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/if3.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/if4.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/inc-dec.psl   =
+=====================================================
+=== Expected stdout ===
+5 7 7 5
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/objectcombo.psl   =
+=====================================================
+=== Expected stdout ===
+fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/objectcombo2.psl   =
+=====================================================
+=== Expected stdout ===
+four fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2/while.psl   =
+=====================================================
+=== Expected stdout ===
+10 9 8 7 6 5 4 3 2 1 0
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/changevar3.psl   =
+=====================================================
+=== Expected stdout ===
+12
+12
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/for.psl   =
+=====================================================
+=== Expected stdout ===
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, , 
+
+=== Actual stdout ===
+, 
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/func1.psl   =
+=====================================================
+=== Expected stdout ===
+now
+not til later
+not til later
+
+
+=== Actual stdout ===
+not til later
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/func2.psl   =
+=====================================================
+=== Expected stdout ===
+Chapter One: Object-Oriented Programming
+Chapter Two: Functional Programming
+
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/func5.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+f
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/if.psl   =
+=====================================================
+=== Expected stdout ===
+else branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+then branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/if2.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+then branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/if3.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/if4.psl   =
+=====================================================
+=== Expected stdout ===
+then branch
+then branch
+
+
+=== Actual stdout ===
+else branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/inc-dec.psl   =
+=====================================================
+=== Expected stdout ===
+5 7 7 5
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/objectcombo.psl   =
+=====================================================
+=== Expected stdout ===
+fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/objectcombo2.psl   =
+=====================================================
+=== Expected stdout ===
+four fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/2.1/while.psl   =
+=====================================================
+=== Expected stdout ===
+10 9 8 7 6 5 4 3 2 1 0
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/3/if5.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+passed
+passed
+passed
+
+
+=== Actual stdout ===
+failed
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/deffun1.psl   =
+=====================================================
+=== Expected stdout ===
+falsefalse
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/defvar1.psl   =
+=====================================================
+=== Expected stdout ===
+Passed0
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/if5.psl   =
+=====================================================
+=== Expected stdout ===
+true
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/methods.psl   =
+=====================================================
+=== Expected stdout ===
+6, 8
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/methods2.psl   =
+=====================================================
+=== Expected stdout ===
+6, 8
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/methods3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/4/methods5.psl   =
+=====================================================
+=== Expected stdout ===
+3
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "fg")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/5/while1.psl   =
+=====================================================
+=== Expected stdout ===
+9876543211
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/notobj1.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+4
+
+=== Expected stderr ===
+Non-object in field update: 1
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/notobj2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+4
+
+=== Expected stderr ===
+Non-object in field update: string
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/notobj3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+4
+
+=== Expected stderr ===
+Non-object in field update: true
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/notobj4.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+4
+
+=== Expected stderr ===
+Non-object in field update: function
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/obj1.psl   =
+=====================================================
+=== Expected stdout ===
+function
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/obj2.psl   =
+=====================================================
+=== Expected stdout ===
+23
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/7/while1.psl   =
+=====================================================
+=== Expected stdout ===
+failed
+
+=== Actual stdout ===
+passed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/8/nested1.psl   =
+=====================================================
+=== Expected stdout ===
+g
+
+=== Actual stdout ===
+f
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/8/nested2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+function
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib2/tests/8/obj1.psl   =
+=====================================================
+=== Expected stdout ===
+true
+
+=== Actual stdout ===
+a
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/addafiel2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+z
+
+=== Expected stderr ===
+Field not found: z
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/addafield.psl   =
+=====================================================
+=== Expected stdout ===
+object
+
+=== Actual stdout ===
+after
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/bindings.psl   =
+=====================================================
+=== Expected stdout ===
+3
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "fg")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/changevar2.psl   =
+=====================================================
+=== Expected stdout ===
+before
+after
+
+=== Actual stdout ===
+after
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/defvar.psl   =
+=====================================================
+=== Expected stdout ===
+myfield
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/defvars.psl   =
+=====================================================
+=== Expected stdout ===
+myfield
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/fibs.psl   =
+=====================================================
+=== Expected stdout ===
+0 1 1 2 3 5 8 13 21 34 
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/for.psl   =
+=====================================================
+=== Expected stdout ===
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, , 
+
+=== Actual stdout ===
+, 
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/func1.psl   =
+=====================================================
+=== Expected stdout ===
+now
+not til later
+not til later
+
+
+=== Actual stdout ===
+not til later
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/func2.psl   =
+=====================================================
+=== Expected stdout ===
+Chapter One: Object-Oriented Programming
+Chapter Two: Functional Programming
+
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/func_wrong_num_of_args.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+Unbound identifier: y
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/getfield.psl   =
+=====================================================
+=== Expected stdout ===
+my field value
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/getfieldstr.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/getnofield.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+Field not found: y
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/if.psl   =
+=====================================================
+=== Expected stdout ===
+else branch
+then branch
+then branch
+
+
+=== Actual stdout ===
+then branch
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/if1.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+passed
+passed
+failed
+passed
+This will go to standard outfailed
+failed
+
+
+=== Actual stdout ===
+passed
+
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/if3.psl   =
+=====================================================
+=== Expected stdout ===
+falsefalse
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/if_func.psl   =
+=====================================================
+=== Expected stdout ===
+passedpassed
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/if_no_else.psl   =
+=====================================================
+=== Expected stdout ===
+3
+
+=== Actual stdout ===
+hoohoo
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/inc-dec.psl   =
+=====================================================
+=== Expected stdout ===
+5 7 7 5
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/list.psl   =
+=====================================================
+=== Expected stdout ===
+2 0
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "isempty")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/method_dot.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/method_no_self.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/methods.psl   =
+=====================================================
+=== Expected stdout ===
+6, 8
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "translate")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/object_no_def.psl   =
+=====================================================
+=== Expected stdout ===
+3
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "fg")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/objectcombo1.psl   =
+=====================================================
+=== Expected stdout ===
+fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/objectcombo2.psl   =
+=====================================================
+=== Expected stdout ===
+four fourscore
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/objfieldplus.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+longfieldq
+
+=== Expected stderr ===
+Field not found: longfieldq
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/operators.psl   =
+=====================================================
+=== Expected stdout ===
+false
+false
+12
+-6
+one two three
+true
+false
+
+=== Actual stdout ===
+false
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib3/test-suite/while.psl   =
+=====================================================
+=== Expected stdout ===
+10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+
+=== Actual stdout ===
+0
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-arg-order-1.psl   =
+=====================================================
+=== Expected stdout ===
+123
+
+=== Actual stdout ===
+12
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-multiple-args-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+Unbound identifier: y
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-multiple-args-3.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-recursive.psl   =
+=====================================================
+=== Expected stdout ===
+54321done
+
+=== Actual stdout ===
+done
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-string-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: test
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "test")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/apply/apply-string.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: test
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "test")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/object-update.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Field not found: x
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/override-formal-var.psl   =
+=====================================================
+=== Expected stdout ===
+512
+
+=== Actual stdout ===
+2
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/override-fun-var-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: 2
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (NumV 2)
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/recurse.psl   =
+=====================================================
+=== Expected stdout ===
+54321123450
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/set-fun-var-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Applied a non-function: 5
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (NumV 5)
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/bindings/use-before-end-mod.psl   =
+=====================================================
+=== Expected stdout ===
+225225
+
+=== Actual stdout ===
+5
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/for/for-long.psl   =
+=====================================================
+=== Expected stdout ===
+foofoofoo
+
+=== Actual stdout ===
+foo
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-lambda.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-method-name.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "test")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-method.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "test")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-minus-assign.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-number-negative.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-number-positive.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-number-zero.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-object.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-op-minus.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-op-plus.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-op-print-2.psl   =
+=====================================================
+=== Expected stdout ===
+falsepassed
+
+=== Actual stdout ===
+passed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-op-print.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-plus-assign.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-post-decrement.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-post-increment.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-pre-decrement.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-pre-increment.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-side-effects-1.psl   =
+=====================================================
+=== Expected stdout ===
+passedpassed
+
+=== Actual stdout ===
+passed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-side-effects-2.psl   =
+=====================================================
+=== Expected stdout ===
+truepassedpassed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-slot-name.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-slot.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-string-empty.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-string-false.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/if/if-string-nonempty.psl   =
+=====================================================
+=== Expected stdout ===
+passed
+
+=== Actual stdout ===
+failed
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/empty-field-name-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+
+=== Expected stderr ===
+Field not found: 
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/empty-field-name.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+Field not found: x
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/empty-field.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+Field not found: x
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/field-name-var.psl   =
+=====================================================
+=== Expected stdout ===
+2
+
+=== Actual stdout ===
+y
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/field-name.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/field.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/function-field-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/function-field.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/int-field.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+Non-string in field lookup: 1
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/method-2.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Application failed with arity mismatch
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/method.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/recurse-self-2.psl   =
+=====================================================
+=== Expected stdout ===
+543210object5
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/recurse-self.psl   =
+=====================================================
+=== Expected stdout ===
+543210object5
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/repeated-name-var-var.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+Multiply-defined fields
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/self-set.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+ClosureV-env: contract violation
+ expected: ClosureV?
+ given: (StrV "f")
+ in: the 1st argument of
+      (-> ClosureV? (or/c undefined? ???))
+ contract from: ClosureV-env
+ blaming: use
+ at: /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/typed-lang2.rkt:124.53
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/set-field-2.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/set-field-name-2.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/set-field-name.psl   =
+=====================================================
+=== Expected stdout ===
+2
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/set-field.psl   =
+=====================================================
+=== Expected stdout ===
+2
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/objects/set-name-nonexist.psl   =
+=====================================================
+=== Expected stdout ===
+1
+
+=== Actual stdout ===
+x
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-greater-func.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+function
+function
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-greater-int-str.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+1
+2
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-greater-object.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+object
+object
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-greater-str.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for >:
+1
+2
+
+=== Actual stderr ===
+Bad arguments to >
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-lesser-func.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+function
+function
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-lesser-int-str.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+1
+2
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-lesser-object.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+object
+object
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/operators/op-lesser-str.psl   =
+=====================================================
+=== Expected stdout ===
+
+=== Actual stdout ===
+
+=== Expected stderr ===
+Bad arguments for <:
+1
+2
+
+=== Actual stderr ===
+Bad arguments to <
+
+=====================================================
+=   Results for /home/b/b4u7/cs311/pa4-pre/suse-dist/bin/assignment4-suite/contrib4/test-suite/while/while-long.psl   =
+=====================================================
+=== Expected stdout ===
+foofoo1
+
+=== Actual stdout ===
+1
+
+=== Expected stderr ===
+
+=== Actual stderr ===
+
+
