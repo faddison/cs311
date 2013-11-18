@@ -1,0 +1,71 @@
+#lang plai-typed
+
+(require "utils.rkt")
+
+;; Using the test module ensures that the tests are run if we run this
+;; file but not if we run another that requires this one.  Definitions
+;; inside the test module are also not available outside of it (so we
+;; can define helper functions there without cluttering the local
+;; namespace or exporting to other files that require this one).  The
+;; module also visually (and functionally) groups tests.  
+;;
+;; However, tests inside this module are NOT type-checked, which can
+;; lead you to some headscratching before you find type errors in your
+;; tests!  Use with caution!
+(module+ test
+  ;; Only print out the failed test cases.
+  (print-only-errors true))
+
+(define-type FunDefC
+  [fdC (name : symbol) (arg : symbol) (body : ExprC)])  ; so, we'll need exprCs!
+
+
+; ExprS ST: arithmetic with predefined functions
+(define-type ExprS
+  [numS (n : number)]
+  [divS (l : ExprS) (r : ExprS)]
+  [plusS (l : ExprS) (r : ExprS)]
+  [multS (l : ExprS) (r : ExprS)]
+  [bminusS (l : ExprS) (r : ExprS)]
+  [appS (f : symbol) (a : ExprS)]
+  [idS (i : symbol)])
+
+
+; ExprC AST: arithmetic with predefined functions
+(define-type ExprC
+  [numC (n : number)]
+  [divC (l : ExprC) (r : ExprC)]
+  [plusC (l : ExprC) (r : ExprC)]
+  [multC (l : ExprC) (r : ExprC)]
+  [appC (f : symbol) (a : ExprC)]
+  [idC (i : symbol)])
+
+; Binary operator symbol map.
+(define binop-map (hash (list (values '/ divS)
+			      (values '+ plusS)
+                              (values '- bminusS)
+                              (values '* multS))))
+
+; check if the identifier is disallowed as a variable or function name
+(define (reserved? [s : symbol]) : boolean
+  (some? (hash-ref binop-map s)))
+
+(module+ test
+  (test (reserved? '+) true)
+  (test (reserved? '/) true)
+  (test (reserved? '-) true)
+  (test (reserved? '*) true)
+  (test (reserved? '_) false)
+  (test (reserved? 'a) false))
+
+; parse s-expressions into ExprS STs
+(define (parse [s-exp : s-expression]) : ExprS
+  (s-exp-type-case s-exp
+                   (lambda ([selst : (listof s-expression)]) : ExprS
+                     (cond 
+                       [(and (= (length selst) 3)
+                             (s-exp-symbol? (first selst)))
+                        (type-case (optionof (ExprS ExprS -> ExprS)) (hash-ref binop-map (s-exp->symbol (first selst)))
+                          [none () (error 'parse (string-append "non-binary-operator symbol used as binary operator in: " (to-string selst)))]
+                          [some (opS) (opS (parse (second selst)) (parse (third selst)))])]
+                       [(and (= (
