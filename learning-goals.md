@@ -18,6 +18,21 @@ Learning Goals
 
 - Function calls vs function definitions
  - distinguish between a function call (aka function 'application') and a function 'definition'
-  - a function call is application of a previously defined function to actual parameters, which causes the function body to be evaluated.
-  - a function definition creates a function (prepares it to be used) with formal parameters and a body but does not evaluate the body yet
+ 	- a function call is application of a previously defined function to actual parameters, which causes the function body to be evaluated.
+ 	- a function definition creates a function (prepares it to be used) with formal parameters and a body but does not evaluate the body yet
  - identify function calls and definitions in context
+
+ - Bound vs unbound identifiers
+  - define bound and unbound identifier, including illustrating their meanings with examples
+  - identify bound and unbound identifiers in context
+  - define scope with respect to identifier
+  	- the scope of an identifier's binding is the protion of the program in which that binding is visible. In Racket, bindings use lexical (aka static) scope. However, Racket does have a facility for something like dynamic scope.
+
+ - Eager evaluation vs lazy evaluation
+  - Explain the basic different between lazy and eager evaluation.
+  	- in lazy evaluation, actual parameters are not evaluated before proceeding with a function call. Formal parameters are bound to the actual parameter expressions, not their values.
+  	- in eager evaluation, actual parameters are evaluated prior to proceeding with a function call, and the function's formal parameters are bound to the resulting values.
+  - be able to distinguish between lazy and eager evaluation regimes by evaluating (and possibly providing a test case that behaves differently under the two regimes
+  - alter existing substitution and interpreter code to switch back and forth between lazy and eager evaluation regimes
+  	
+  
