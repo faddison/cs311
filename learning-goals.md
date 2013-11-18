@@ -1,4 +1,24 @@
-## Lecture 6 Desugaring ##
+## Lecture 6 - Desugaring ##
+
+### Why Desugar? ###
+
+ - allows us to build different surface languages atop a single core
+ - may make either the program or the interpreter faster
+ - better grasp of semantics in 'leaner' core language
+ - separation of conerns: don't worry simultaneously about user interface needs and language design needs
+ - customize the language to the domain at hand
+ - simpler maintenance for core language
+ - keep the same surface syntax but improve the underlying language (backwards compatibility)
+ 
+ more...
+ 
+ - present the programmer with a 'friendlier' interface
+ - reduce a complex language to a simpler one to make our language implementation job easier
+ - reduce a complex language to a simple core to make it easier to reason about the core
+ 	- security
+ 	- correctness
+ 	-resource use
+ - add desired features to the language without complicating its implementation
 
 ### Learning Goals ###
 

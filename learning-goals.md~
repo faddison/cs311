@@ -1,5 +1,15 @@
-## Lecture 6 Desugaring ##
+## Lecture 6 - Desugaring ##
 
+### Learning Goals ###
+
+ - distinction between 'static' and 'dynamic'
+ - explain the relationship of a desurgarer to the parser and interpreter
+ - justify the use of desuargaring on various grounds
+  - its impact on the programmer's interfaces
+  - the languages implementation's complexity
+  - the tractability (doable-ness) of useful reasoning over the language
+  - and the software engineering advantages of isolating components of the interpreter system
+ - extend a surfact language over an existing core language using a desurgarer
 
 ## Lecture 7 - Functions Intro ##
 
