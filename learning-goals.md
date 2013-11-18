@@ -18,7 +18,7 @@
  - better grasp of semantics in 'leaner' core language
  - separation of conerns: don't worry simultaneously about user interface needs and language design needs
  - customize the language to the domain at hand
- - simpler maintenance for core language
+ - simpler maintenance for core language 
  - keep the same surface syntax but improve the underlying language (backwards compatibility)
  
  *More...*

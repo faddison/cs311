@@ -21,7 +21,7 @@
  - simpler maintenance for core language
  - keep the same surface syntax but improve the underlying language (backwards compatibility)
  
- *more...*
+ *More...*
  
  - present the programmer with a 'friendlier' interface
  - reduce a complex language to a simpler one to make our language implementation job easier
