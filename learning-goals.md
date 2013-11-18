@@ -1,8 +1,25 @@
-Learning Goals
+
 
 ## Lecture 7 - Functions Intro ##
 
-### Functions ###
+### Function Test Cases ###
+
+What happens...
+
+ - in 'normal' cases where we call a natural-seeming function and it does its thing
+ - when a function calls another function
+ - when a function calls itself (requires conditionals)
+ - when a function does not use its parameters
+ - when a function uses its parameter twice (how can we tell?)
+ 	- look for multiple references to the identifier. it will always have one binding site where it's defined, but it may be referenced multiple times
+ - when a function's 'actual parameter' is an identifier
+ - when we try to use an identifier that is not bound anywhere
+ - when we try to use an identifier that's bound in the function that calls the current function
+ 	- if this is allowed, it means our language has dynamic scope for identifiers. in other words, an identifier binding made in a particular part of the program may be used in a totally unrelated part of the program just because this part of the program calls a function in that part (or calls a function that calls a function that....
+ - how could we tell the different between lazy and eager evaluation semantics? can we teset for the appropriate semantics? what do we need to be able to do such a test?
+ 	
+
+### Learning Goals ###
 
 - Explain in context four of the key features of a function
  - delaying evaluation of the function body
