@@ -12,10 +12,12 @@ Learning Goals
 
 - Formal parameters vs. actual parameters
  - distinguish between formal and actual parameters
-  - formal parameters are the names give to argument values within the function
-  - actual parameters are the argument expressions whose values (under eager evaluation) are bound to the formal parameters
+ 	- formal parameters are the names give to argument values within the function
+ 	- actual parameters are the argument expressions whose values (under eager evaluation) are bound to the formal parameters
  - identify formal and actual parameters in context
 
 - Function calls vs function definitions
- - distinguish between a function call (aka function 'application') and a function 'definition
-  - a function call is application of a previously defined function to actual parameters
+ - distinguish between a function call (aka function 'application') and a function 'definition'
+  - a function call is application of a previously defined function to actual parameters, which causes the function body to be evaluated.
+  - a function definition creates a function (prepares it to be used) with formal parameters and a body but does not evaluate the body yet
+ - identify function calls and definitions in context
