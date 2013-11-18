@@ -1,25 +1,5 @@
 ## Lecture 6 - Desugaring ##
 
-### Why Desugar? ###
-
- - allows us to build different surface languages atop a single core
- - may make either the program or the interpreter faster
- - better grasp of semantics in 'leaner' core language
- - separation of conerns: don't worry simultaneously about user interface needs and language design needs
- - customize the language to the domain at hand
- - simpler maintenance for core language
- - keep the same surface syntax but improve the underlying language (backwards compatibility)
- 
- more...
- 
- - present the programmer with a 'friendlier' interface
- - reduce a complex language to a simpler one to make our language implementation job easier
- - reduce a complex language to a simple core to make it easier to reason about the core
- 	- security
- 	- correctness
- 	-resource use
- - add desired features to the language without complicating its implementation
-
 ### Learning Goals ###
 
  - distinction between 'static' and 'dynamic'
@@ -31,24 +11,27 @@
   - and the software engineering advantages of isolating components of the interpreter system
  - extend a surfact language over an existing core language using a desurgarer
 
+### Why Desugar? ###
+
+ - allows us to build different surface languages atop a single core
+ - may make either the program or the interpreter faster
+ - better grasp of semantics in 'leaner' core language
+ - separation of conerns: don't worry simultaneously about user interface needs and language design needs
+ - customize the language to the domain at hand
+ - simpler maintenance for core language
+ - keep the same surface syntax but improve the underlying language (backwards compatibility)
+ 
+ *More...*
+ 
+ - present the programmer with a 'friendlier' interface
+ - reduce a complex language to a simpler one to make our language implementation job easier
+ - reduce a complex language to a simple core to make it easier to reason about the core
+ 	- security
+ 	- correctness
+ 	-resource use
+ - add desired features to the language without complicating its implementation
+
 ## Lecture 7 - Functions Intro ##
-
-### Function Test Cases ###
-
-What happens...
-
- - in 'normal' cases where we call a natural-seeming function and it does its thing
- - when a function calls another function
- - when a function calls itself (requires conditionals)
- - when a function does not use its parameters
- - when a function uses its parameter twice (how can we tell?)
- 	- look for multiple references to the identifier. it will always have one binding site where it's defined, but it may be referenced multiple times
- - when a function's 'actual parameter' is an identifier
- - when we try to use an identifier that is not bound anywhere
- - when we try to use an identifier that's bound in the function that calls the current function
- 	- if this is allowed, it means our language has dynamic scope for identifiers. in other words, an identifier binding made in a particular part of the program may be used in a totally unrelated part of the program just because this part of the program calls a function in that part (or calls a function that calls a function that....
- - how could we tell the different between lazy and eager evaluation semantics? can we teset for the appropriate semantics? what do we need to be able to do such a test?
- 	
 
 ### Learning Goals ###
 
@@ -82,5 +65,21 @@ What happens...
   	- in eager evaluation, actual parameters are evaluated prior to proceeding with a function call, and the function's formal parameters are bound to the resulting values.
   - be able to distinguish between lazy and eager evaluation regimes by evaluating (and possibly providing a test case that behaves differently under the two regimes
   - alter existing substitution and interpreter code to switch back and forth between lazy and eager evaluation regimes
+
+### Function Test Cases ###
+
+*What happens...*
+
+ - in 'normal' cases where we call a natural-seeming function and it does its thing
+ - when a function calls another function
+ - when a function calls itself (requires conditionals)
+ - when a function does not use its parameters
+ - when a function uses its parameter twice (how can we tell?)
+ 	- look for multiple references to the identifier. it will always have one binding site where it's defined, but it may be referenced multiple times
+ - when a function's 'actual parameter' is an identifier
+ - when we try to use an identifier that is not bound anywhere
+ - when we try to use an identifier that's bound in the function that calls the current function
+ 	- if this is allowed, it means our language has dynamic scope for identifiers. in other words, an identifier binding made in a particular part of the program may be used in a totally unrelated part of the program just because this part of the program calls a function in that part (or calls a function that calls a function that....
+ - how could we tell the different between lazy and eager evaluation semantics? can we teset for the appropriate semantics? what do we need to be able to do such a test?
   	
   
